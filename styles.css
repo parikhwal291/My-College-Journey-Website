@@ -3,12 +3,12 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #1a4e68;
+    background-color: #e8b6c5;
 }
 
 header {
-    background: #1a4e68;
-    color: #faf8f8;
+    background: #e989a6;
+    color: #550324;
     padding: 10px 0;
     text-align: center;
 }
@@ -38,7 +38,7 @@ section {
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #1a4e68;
+    background: #e8b6c5;
     color: #ffffff;
     position: relative;
     bottom: 0;
@@ -58,6 +58,23 @@ footer {
     max-width: 100%; /* Ensure the image is responsive */
     height: auto; /* Maintain aspect ratio */
     width: 25%; /* Set a fixed width for the image */
+    margin-top: -80px; /* Move the image upwards */
+    margin-left: -20px; /* Move the image to the left */
+}
+.about-content {
+    display: flex; /* Use Flexbox for layout */
+    align-items: flex-start; /* Align items at the start */
+}
+
+.about-text {
+    flex: 1; /* Allow the text to take up available space */
+    margin-right: 20px; /* Add space between the text and the image */
+}
+
+.about-image {
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+    width: 20%; /* Set a fixed width for the image */
     margin-top: -80px; /* Move the image upwards */
     margin-left: -20px; /* Move the image to the left */
 }
